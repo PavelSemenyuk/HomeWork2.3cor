@@ -1,5 +1,5 @@
 
-public class Car extends Bicycle{
+public class Car extends Transport{
     private int engineCapacit;
 
     public Car(String modelName, int wheelsCount, int engineCapacit) {
@@ -11,9 +11,6 @@ public class Car extends Bicycle{
         return engineCapacit;
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышки у " + getModelName() +" в колличестве "+ getWheelsCount() + " штук.");
-    }
 
     public void checkEngine() {
         System.out.println("Проверяем двигатель, обьемом " + getEngineCapacit() + " литра.");

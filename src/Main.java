@@ -6,8 +6,8 @@ public class Main {
         Car car = new Car("car1", 4, 3);
         Car car2 = new Car("car2", 4, 5);
 
-        Truck truck = new Truck("truck1", 4, 7, "ЗАГРУЖЕН");
-        Truck truck2 = new Truck("truck2", 4, 6, "ПУСТОЙ");
+        Truck truck = new Truck("truck1", 4, "ЗАГРУЖЕН",7);
+        Truck truck2 = new Truck("truck2", 4, "ПУСТОЙ", 6);
 
         ServiceStation station = new ServiceStation();
         station.check(car);
